@@ -16,6 +16,12 @@
 	  </nav>
     <!--end heading-->
     <!--begin about-->
+    <div class="job-title" >
+      <h1>Computer Optimization</h1>
+    </div>
+    <div>
+      <p><bv>We render services in optimizing computer and computer devices to provide the best of services to our customers. We also offer other services such as web design, OS intallation and all other computer related services.</bv></p>
+    </div>
       <div class="main">
           <h2>About Me</h2>
           <hr class="star-light"></hr>
@@ -62,7 +68,7 @@ Finally, I want to work in a growing company, that focuses on new technologies, 
           <div class="form-group col-xs-12 floating-label-form-group controls">
             <label>Name</label>
             <input class="form-control" placeholder="Name" id="name" required="" data-validation-required-message="Please enter your name." type="text">
-            <p class="help-block text-danger"></p>
+            <p class="help-block text-danger"></p>  
           </div>
         </div>
         <div class="row control-group">
@@ -120,42 +126,82 @@ Finally, I want to work in a growing company, that focuses on new technologies, 
     padding: 0;
     box-sizing: border-box;
 }
-.home{
-  background-color: aqua;
+body{
+  background-image: url("./pics/city.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  font-size: 15px;
+}
+.job-title h1{
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  align-items: middle;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xx-large;
+  font-weight: bold;
+  color: black;
 }
 
 /* Navbar */
 .navbar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: greenyellow;
-    position: sticky;
-    top: 0;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  top: 0;
 }
 .navbar ul{
-    display: flex;
-    list-style: none;
-    margin: 20px 0px;
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
 }
 .navbar ul li{
-    font-family: century;
-    font-size: 24px;
-    font-weight: bold;
+  font-family: century;
+  font-size: 15px;
+  font-weight: bold;
 }
 .navbar ul li a{
-	text-decoration: none;
-	color: rgb(25, 0, 255);
-  padding: 8px 25px;
-  transition: all .5s ease;  
+text-decoration: none;
+color: darkblue;
+padding: 8px 25px;
+transition: all .5s ease;  
 }
 .navbar ul li a:hover{
-    background-color: white;
-    color: blueviolet;
-    box-shadow: 0 0 10px blue;
+  background-color: white;
+  color: blueviolet;
+  box-shadow: 0 0 10px blue;
 }
 
 /* About */
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: middle;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: x-large;
+  font-weight: bold;
+  color: #2c3e50;
+  text-transform: uppercase;
+}
+hr.star-light {
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+}
+hr.star-primary {
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+    color: #fff;
+}
 .soc{
   display: flex;
   justify-content: center;
@@ -164,7 +210,9 @@ Finally, I want to work in a growing company, that focuses on new technologies, 
   top: 0;
 }
 .soc a{
+  text-transform: uppercase;
   text-decoration: none;
+  color: rgb(79, 1, 79);
   padding: 8px 25px;
   transition: all .5s ease;
 }
@@ -179,8 +227,27 @@ Finally, I want to work in a growing company, that focuses on new technologies, 
 .col-md-3:hover{
   cursor: pointer;
   background-color: white;
-  color: violet;
-  box-shadow: 0 0 5px green;
+  color: black;
+  box-shadow: 0 0 5px royalblue;
   font-weight: bold;
+}
+.col-md-12 h2{
+  display: flex;
+  justify-content: center;
+  align-items: middle;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xx-large;
+  font-weight: bold;
+  color: aqua;
+}
+.row label{
+  font-weight: bold;
+  color: #fff;
+}
+.footer-col h3, p{
+  font-weight: bold;
+  color: #fff;
+  font-style: normal;
+  font-size: 20px;
 }
 </style>
