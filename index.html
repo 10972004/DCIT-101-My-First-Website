@@ -1,9 +1,13 @@
 <!Doctype html>
 <head>
 	<title>My first Website</title>
+  <link rel="stylesheet" href="style.css">
 	<meta http-equiv = "refresh" content = "2">
 </head>
 <body>
+  <div class="logo">
+    <img src="C:\Users\mintahsylvesterkojo\Desktop\DCIT101 FAK\My coding\HTML Project\Pics/optimizatio.PNG" alt="logo">
+  </div>
   <section class="home" >
 <!--begin navigation-->
 	  <nav class = "navbar">
@@ -16,13 +20,17 @@
 	  </nav>
     <!--end heading-->
     <!--begin about-->
-    <div class="job-title" >
+    <div class="job-title" ><link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
       <h1>Computer Optimization</h1>
     </div>
     <div>
       <p><bv>We render services in optimizing computer and computer devices to provide the best of services to our customers. We also offer other services such as web design, OS intallation and all other computer related services.</bv></p>
     </div>
-      <div class="main">
+      <div class="main"><link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
           <h2>About Me</h2>
           <hr class="star-light"></hr>
       </div>
@@ -56,7 +64,9 @@ Finally, I want to work in a growing company, that focuses on new technologies, 
 <section id="contact">
   <div class="container">
     <div class="row">
-      <div class="col-md-12 text-center">
+      <div class="col-md-12 text-center"><link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
         <h2>Contact me</h2>
         <hr class="star-primary"></hr>          
     </div>
@@ -119,139 +129,3 @@ Finally, I want to work in a growing company, that focuses on new technologies, 
 <!-- end footer -->
 </body>
 </html>
-
-<style>
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-  background-color: #a7dbe3;
-  color: white;
-  height: 100vh;
-  background-size: cover;
-  background-position: center center;
-  position: relative;
-  font-size: 15px;
-}
-.job-title h1{
-  display: flex;
-  justify-content: center;
-  text-transform: uppercase;
-  align-items: middle;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: xx-large;
-  font-weight: bold;
-  color: black;
-}
-
-/* Navbar */
-.navbar{
-  background-color: beige;
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  top: 0;
-}
-.navbar ul{
-  display: flex;
-  list-style: none;
-  margin: 20px 0px;
-}
-.navbar ul li{
-  font-family: century;
-  font-size: 15px;
-  font-weight: bold;
-}
-.navbar ul li a{
-text-decoration: none;
-color: darkblue;
-padding: 8px 25px;
-transition: all .5s ease;  
-}
-.navbar ul li a:hover{
-  background-color: white;
-  color: blueviolet;
-  box-shadow: 0 0 10px blue;
-}
-
-/* About */
-.main{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 20px;
-  font-weight: bold;
-  color: #2c3e50;
-  text-transform: uppercase;
-}
-hr.star-light {
-    padding: 0;
-    border: none;
-    border-top: solid 5px;
-    text-align: center;
-    max-width: 250px;
-    margin: 25px auto 30px;
-}
-hr.star-primary {
-    padding: 0;
-    border: none;
-    border-top: solid 5px;
-    text-align: center;
-    max-width: 250px;
-    margin: 25px auto 30px;
-    color: black;
-}
-.soc{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: sticky;
-  top: 0;
-}
-.soc a{
-  text-transform: uppercase;
-  text-decoration: none;
-  color: rgb(79, 1, 79);
-  padding: 8px 25px;
-  transition: all .5s ease;
-}
-.col-md-3{
-  padding: 10px 35px;
-  background-color: transparent;
-  border: 1px solid white;
-  color: white;
-  outline: none;
-  transition: .6s ease;
-}
-.col-md-3:hover{
-  cursor: pointer;
-  background-color: white;
-  color: black;
-  box-shadow: 0 0 5px royalblue;
-  font-weight: bold;
-}
-.col-md-12 h2{
-  background-color: blue;
-  display: flex;
-  justify-content: center;
-  align-items: middle;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: xx-large;
-  font-weight: bold;
-  color: #2c3e50;
-}
-.row label{
-  font-weight: bold;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: black;
-}
-.footer-col h3, p{
-  font-weight: bold;
-  color: black;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 20px;
-}
-</style>
